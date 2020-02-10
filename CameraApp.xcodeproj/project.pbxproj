@@ -13,6 +13,8 @@
 		852A648D23F1679B00422687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852A648B23F1679B00422687 /* Main.storyboard */; };
 		852A648F23F1679D00422687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852A648E23F1679D00422687 /* Assets.xcassets */; };
 		852A649223F1679D00422687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852A649023F1679D00422687 /* LaunchScreen.storyboard */; };
+		852A649A23F16D3B00422687 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A649923F16D3B00422687 /* customButton.swift */; };
+		8560280823F17872005C3B35 /* customImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8560280723F17872005C3B35 /* customImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		852A648E23F1679D00422687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852A649123F1679D00422687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852A649323F1679D00422687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852A649923F16D3B00422687 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		8560280723F17872005C3B35 /* customImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			children = (
 				852A648523F1679B00422687 /* AppDelegate.swift */,
 				852A648723F1679B00422687 /* SceneDelegate.swift */,
+				852A649D23F16F4D00422687 /* customUI */,
 				852A648923F1679B00422687 /* ViewController.swift */,
 				852A648B23F1679B00422687 /* Main.storyboard */,
 				852A648E23F1679D00422687 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				852A649323F1679D00422687 /* Info.plist */,
 			);
 			path = CameraApp;
+			sourceTree = "<group>";
+		};
+		852A649D23F16F4D00422687 /* customUI */ = {
+			isa = PBXGroup;
+			children = (
+				852A649923F16D3B00422687 /* customButton.swift */,
+				8560280723F17872005C3B35 /* customImageView.swift */,
+			);
+			path = customUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852A649A23F16D3B00422687 /* customButton.swift in Sources */,
 				852A648A23F1679B00422687 /* ViewController.swift in Sources */,
+				8560280823F17872005C3B35 /* customImageView.swift in Sources */,
 				852A648623F1679B00422687 /* AppDelegate.swift in Sources */,
 				852A648823F1679B00422687 /* SceneDelegate.swift in Sources */,
 			);
